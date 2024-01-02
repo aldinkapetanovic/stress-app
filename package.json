@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "name": "stress-app",
+    "version": "1.0.0",
+    "description": "Node.js/Express stress-testing application",
+    "main": "app.mjs",
+    "scripts": {
+      "start": "node --experimental-modules app.mjs"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  
