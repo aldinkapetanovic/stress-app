@@ -6,6 +6,10 @@ import { exec } from 'child_process';
 // Create an Express application
 const app = express();
 
+app.get('/', (req, res) => {
+  res.status(200).send('Hello, World!');
+});
+
 // Define the endpoints
 
 app.get('/stress-cpu', (req, res) => {
